@@ -6,6 +6,18 @@
     <title>Password Generator</title>
 </head>
 <body>
+
+    <form method="POST">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="name">Cognome:</label>
+        <input type="text" id="surname" name="surname" required>
+        <label for="name">Colore:</label>
+        <input type="text" id="color" name="color" required>
+        <input type="button" onclick="myFunction()" value="Submit">
+        <input type="button" onclick="myReset()" value="Reset">
+    </form>
+    
     <p id="pass">Password generata:</p>
 
     <script src="main.js"></script>
